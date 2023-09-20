@@ -20,37 +20,35 @@ function CalculatorDisplay() {
         <div className="sum-display sum">
           <span>
             {total}
-            {' '}
             {operation}
-            {' '}
             {next}
           </span>
         </div>
 
         <button
           type="button"
-          className="btn-white"
+          className="white-btn"
           onClick={(e) => clickHandler(e.target.textContent)}
         >
           AC
         </button>
         <button
           type="button"
-          className="btn-white"
+          className="white-btn"
           onClick={(e) => clickHandler(e.target.textContent)}
         >
           +/-
         </button>
         <button
           type="button"
-          className="btn-white"
+          className="white-btn"
           onClick={(e) => clickHandler(e.target.textContent)}
         >
           %
         </button>
         <button
           type="button"
-          className="btn-orange"
+          className="orange-btn"
           onClick={(e) => clickHandler(e.target.textContent)}
         >
           &#xf7;
@@ -58,28 +56,28 @@ function CalculatorDisplay() {
 
         <button
           type="button"
-          className="btn-white"
+          className="white-btn"
           onClick={(e) => clickHandler(e.target.textContent)}
         >
           7
         </button>
         <button
           type="button"
-          className="btn-white"
+          className="white-btn"
           onClick={(e) => clickHandler(e.target.textContent)}
         >
           8
         </button>
         <button
           type="button"
-          className="btn-white"
+          className="white-btn"
           onClick={(e) => clickHandler(e.target.textContent)}
         >
           9
         </button>
         <button
           type="button"
-          className="btn-orange"
+          className="orange-btn"
           onClick={(e) => clickHandler(e.target.textContent)}
         >
           x
@@ -87,28 +85,28 @@ function CalculatorDisplay() {
 
         <button
           type="button"
-          className="btn-white"
+          className="white-btn"
           onClick={(e) => clickHandler(e.target.textContent)}
         >
           4
         </button>
         <button
           type="button"
-          className="btn-white"
+          className="white-btn"
           onClick={(e) => clickHandler(e.target.textContent)}
         >
           5
         </button>
         <button
           type="button"
-          className="btn-white"
+          className="white-btn"
           onClick={(e) => clickHandler(e.target.textContent)}
         >
           6
         </button>
         <button
           type="button"
-          className="btn-orange"
+          className="orange-btn"
           onClick={(e) => clickHandler(e.target.textContent)}
         >
           -
@@ -116,28 +114,28 @@ function CalculatorDisplay() {
 
         <button
           type="button"
-          className="btn-white"
+          className="white-btn"
           onClick={(e) => clickHandler(e.target.textContent)}
         >
           1
         </button>
         <button
           type="button"
-          className="btn-white"
+          className="white-btn"
           onClick={(e) => clickHandler(e.target.textContent)}
         >
           2
         </button>
         <button
           type="button"
-          className="btn-white"
+          className="white-btn"
           onClick={(e) => clickHandler(e.target.textContent)}
         >
           3
         </button>
         <button
           type="button"
-          className="btn-orange"
+          className="orange-btn"
           onClick={(e) => clickHandler(e.target.textContent)}
         >
           +
@@ -145,21 +143,21 @@ function CalculatorDisplay() {
 
         <button
           type="button"
-          className="btn-white btn-zero"
+          className="white-btn zero-btn"
           onClick={(e) => clickHandler(e.target.textContent)}
         >
           0
         </button>
         <button
           type="button"
-          className="btn-white"
+          className="white-btn"
           onClick={(e) => clickHandler(e.target.textContent)}
         >
           .
         </button>
         <button
           type="button"
-          className="btn-orange"
+          className="orange-btn"
           onClick={(e) => clickHandler(e.target.textContent)}
         >
           =

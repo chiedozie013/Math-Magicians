@@ -1,7 +1,7 @@
 {
   "editor.autoClosingQuotes": "always",
   "javascript.preferences.quoteStyle": "single",
-  "typescript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "double",
   "html.autoCreateQuotes": true,
   "prettier.singleQuote": true,
   "prettier.jsxSingleQuote": false,

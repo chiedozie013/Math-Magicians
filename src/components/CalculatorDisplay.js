@@ -1,8 +1,7 @@
 import React from 'react';
-import React from 'react';
 
-function CalculatorDisplay(){
-  return(
+function CalculatorDisplay() {
+  return (
   <div>
     <div className="container">
       <div className="sum-display sum">

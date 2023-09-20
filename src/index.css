@@ -54,9 +54,12 @@ body {
   justify-content: flex-end;
   grid-column: 1/-1;
 }
+.zero-btn {
+  grid-column: 1 / span 2;
+}
 
-.btn-orange,
-.btn-white {
+.orange-btn,
+.white-btn {
   padding: 25px 40px;
   font-size: 20px;
   border: none;
@@ -64,14 +67,10 @@ body {
   border-right: 2px solid var(--color-display);
 }
 
-.btn-white {
+.white-btn {
   background-color: var(--color-secondary);
 }
 
-.btn-orange {
+.orange-btn {
   background-color: var(--color-tertiary);
-}
-
-.btn-zero {
-  grid-column: 1 / span 2;
 }

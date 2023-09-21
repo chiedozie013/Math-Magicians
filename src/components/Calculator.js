@@ -19,7 +19,7 @@ function Calculator() {
       <div className="container">
         <div className="sum-display sum">
           <span>
-            <CalculatorDisplay result={(operation && next) || total || '0'} />
+            <CalculatorDisplay result={next || operation || total || '0'} />
           </span>
         </div>
 

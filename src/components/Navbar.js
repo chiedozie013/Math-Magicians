@@ -4,9 +4,11 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const navbar = {
+    // margin-top: '30px',
     display: 'flex',
-    gap: '1rem',
+    gap: '2rem',
     fontSize: '1.7rem',
+    margin: '-200px',
   };
   return (
     <nav style={navbar}>

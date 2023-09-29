@@ -31,6 +31,12 @@ body {
   font-weight: 400;
 }
 
+section {
+  margin: 0 auto;
+  width: 50%;
+  max-width: 80%;
+}
+
 .container {
   /* margin: 0 auto; */
   margin-left: auto;
@@ -83,6 +89,17 @@ body {
   padding: 2rem;
 }
 
-.quote-list {
+.quote-list,
+.welcome {
   font-size: 2rem;
+}
+
+.welcome {
+  color: var(--color-dark-grey);
+  text-align: justify;
+}
+
+.heading {
+  font-size: 3rem;
+  color: var(--color-dark-grey);
 }

@@ -1,14 +1,14 @@
 import calculate from './calculator';
 
-// describe('calculate', () => {
-//   it('should clear the calculator when "AC" is pressed', () => {
-//     const result = calculate({ total: '100', next: '5', operation: '+' }, 'AC');
-//     expect(result).toEqual({
-//       total: null,
-//       next: null,
-//       operation: null,
-//     });
-//   });
+describe('calculate', () => {
+  it('should clear the calculator when "AC" is pressed', () => {
+    const result = calculate({ total: '100', next: '5', operation: '+' }, 'AC');
+    expect(result).toEqual({
+      total: null,
+      next: null,
+      operation: null,
+    });
+  });
 
   it('should update the next number when a digit is pressed', () => {
     const result = calculate({ total: '100', next: '5', operation: '+' }, '2');
@@ -19,14 +19,14 @@ import calculate from './calculator';
     });
   });
 
-  // it('should handle decimal point input correctly', () => {
-  //   const result = calculate({ total: '100', next: '5', operation: '+' }, '.');
-  //   expect(result).toEqual({
-  //     total: '100',
-  //     next: '5.', 
-  //     operation: '+',
-  //   });
-  // });
+  it('should handle decimal point input correctly', () => {
+    const result = calculate({ total: '100', next: '5', operation: '+' }, '.');
+    expect(result).toEqual({
+      total: '100',
+      next: '5.', 
+      operation: '+',
+    });
+  });
 
   it('should calculate the result when "=" is pressed', () => {
     const result = calculate({ total: '100', next: '50', operation: '+' }, '=');

@@ -23,7 +23,7 @@ describe('calculate', () => {
     const result = calculate({ total: '100', next: '5', operation: '+' }, '.');
     expect(result).toEqual({
       total: '100',
-      next: '5.', 
+      next: '5.',
       operation: '+',
     });
   });
@@ -40,7 +40,7 @@ describe('calculate', () => {
   it('should toggle the sign of the number when "+/-" is pressed', () => {
     const result = calculate(
       { total: '100', next: '5', operation: '+' },
-      '+/-'
+      '+/-',
     );
     expect(result).toEqual({
       total: '100',
